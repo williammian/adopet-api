@@ -1,9 +1,9 @@
-package br.com.wm.adopet.api.validacoes;
+package br.com.wm.adopet.api.repository.adopet.api.validacoes;
 
-import br.com.wm.adopet.api.dto.SolicitacaoAdocaoDto;
-import br.com.wm.adopet.api.exception.ValidacaoException;
-import br.com.wm.adopet.api.model.Pet;
-import br.com.wm.adopet.api.repository.PetRepository;
+import br.com.wm.adopet.api.repository.adopet.api.dto.SolicitacaoAdocaoDto;
+import br.com.wm.adopet.api.repository.adopet.api.excpetion.ValidacaoException;
+import br.com.wm.adopet.api.repository.adopet.api.model.Pet;
+import br.com.wm.adopet.api.repository.adopet.api.repository.PetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

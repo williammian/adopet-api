@@ -1,13 +1,13 @@
-package br.com.wm.adopet.api.controller;
+package br.com.wm.adopet.api.repository.adopet.api.controller;
 
-import br.com.wm.adopet.api.dto.AbrigoDto;
-import br.com.wm.adopet.api.dto.CadastroAbrigoDto;
-import br.com.wm.adopet.api.dto.CadastroPetDto;
-import br.com.wm.adopet.api.dto.PetDto;
-import br.com.wm.adopet.api.exception.ValidacaoException;
-import br.com.wm.adopet.api.model.Abrigo;
-import br.com.wm.adopet.api.service.AbrigoService;
-import br.com.wm.adopet.api.service.PetService;
+import br.com.wm.adopet.api.repository.adopet.api.dto.AbrigoDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.CadastroAbrigoDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.CadastroPetDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.PetDto;
+import br.com.wm.adopet.api.repository.adopet.api.excpetion.ValidacaoException;
+import br.com.wm.adopet.api.repository.adopet.api.model.Abrigo;
+import br.com.wm.adopet.api.repository.adopet.api.service.AbrigoService;
+import br.com.wm.adopet.api.repository.adopet.api.service.PetService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

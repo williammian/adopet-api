@@ -1,12 +1,12 @@
-package br.com.wm.adopet.api.service;
+package br.com.wm.adopet.api.repository.adopet.api.service;
 
-import br.com.wm.adopet.api.dto.AbrigoDto;
-import br.com.wm.adopet.api.dto.CadastroAbrigoDto;
-import br.com.wm.adopet.api.dto.PetDto;
-import br.com.wm.adopet.api.exception.ValidacaoException;
-import br.com.wm.adopet.api.model.Abrigo;
-import br.com.wm.adopet.api.repository.AbrigoRepository;
-import br.com.wm.adopet.api.repository.PetRepository;
+import br.com.wm.adopet.api.repository.adopet.api.dto.AbrigoDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.CadastroAbrigoDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.PetDto;
+import br.com.wm.adopet.api.repository.adopet.api.excpetion.ValidacaoException;
+import br.com.wm.adopet.api.repository.adopet.api.model.Abrigo;
+import br.com.wm.adopet.api.repository.adopet.api.repository.AbrigoRepository;
+import br.com.wm.adopet.api.repository.adopet.api.repository.PetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

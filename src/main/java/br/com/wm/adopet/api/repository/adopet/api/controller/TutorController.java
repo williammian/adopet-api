@@ -1,9 +1,9 @@
-package br.com.wm.adopet.api.controller;
+package br.com.wm.adopet.api.repository.adopet.api.controller;
 
-import br.com.wm.adopet.api.dto.AtualizacaoTutorDto;
-import br.com.wm.adopet.api.dto.CadastroTutorDto;
-import br.com.wm.adopet.api.exception.ValidacaoException;
-import br.com.wm.adopet.api.service.TutorService;
+import br.com.wm.adopet.api.repository.adopet.api.dto.AtualizacaoTutorDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.CadastroTutorDto;
+import br.com.wm.adopet.api.repository.adopet.api.excpetion.ValidacaoException;
+import br.com.wm.adopet.api.repository.adopet.api.service.TutorService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

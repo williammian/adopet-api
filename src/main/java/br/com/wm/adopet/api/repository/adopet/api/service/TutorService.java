@@ -1,10 +1,10 @@
-package br.com.wm.adopet.api.service;
+package br.com.wm.adopet.api.repository.adopet.api.service;
 
-import br.com.wm.adopet.api.dto.AtualizacaoTutorDto;
-import br.com.wm.adopet.api.dto.CadastroTutorDto;
-import br.com.wm.adopet.api.exception.ValidacaoException;
-import br.com.wm.adopet.api.model.Tutor;
-import br.com.wm.adopet.api.repository.TutorRepository;
+import br.com.wm.adopet.api.repository.adopet.api.dto.AtualizacaoTutorDto;
+import br.com.wm.adopet.api.repository.adopet.api.dto.CadastroTutorDto;
+import br.com.wm.adopet.api.repository.adopet.api.excpetion.ValidacaoException;
+import br.com.wm.adopet.api.repository.adopet.api.model.Tutor;
+import br.com.wm.adopet.api.repository.adopet.api.repository.TutorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
