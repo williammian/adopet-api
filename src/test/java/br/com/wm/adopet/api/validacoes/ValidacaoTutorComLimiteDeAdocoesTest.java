@@ -3,12 +3,14 @@ package br.com.wm.adopet.api.validacoes;
 import br.com.wm.adopet.api.dto.SolicitacaoAdocaoDto;
 import br.com.wm.adopet.api.exception.ValidacaoException;
 import br.com.wm.adopet.api.model.Adocao;
+import br.com.wm.adopet.api.model.Pet;
 import br.com.wm.adopet.api.model.StatusAdocao;
 import br.com.wm.adopet.api.model.Tutor;
 import br.com.wm.adopet.api.repository.AdocaoRepository;
 import br.com.wm.adopet.api.repository.TutorRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.BDDMockito;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
@@ -30,7 +32,6 @@ class ValidacaoTutorComLimiteDeAdocoesTest {
 
     @Mock
     private SolicitacaoAdocaoDto dto;
-
 
     @Test
     void naoDeveriaPermitirSolicitacaoDeAdocaoTutorAtingiuLimiteDe5Adocoes() {
